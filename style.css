@@ -16,3 +16,28 @@ li{
 header a{
     text-decoration: none;
 }
+.row{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.box{
+    width: 500px;
+}
+.btnSignup{
+    background-color: rgb(240, 59, 22);
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+.summary{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.image{
+    border-radius: 50px;
+}
+.title{
+    font-size: 30px;
+}
