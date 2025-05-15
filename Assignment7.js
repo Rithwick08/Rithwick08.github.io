@@ -29,3 +29,4 @@ const div = () => {
         document.getElementById('res').innerHTML = "Div is: " + sum;
     }
 }
+ 
