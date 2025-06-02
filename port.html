@@ -1,110 +1,120 @@
-<meta charset="UTF-8">
-<meta name="viewport" content="width=, initial-scale=1.0">
-<title>Document</title>
-<link rel="Stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rithwick Reddy - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<h1>My Portfolio</h1>
-<div class="container">
-<header>
-<div><h1><i>Rithwick Reddy</i></h1></div>
-<div>
-<ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#services">Services</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#contact">Contact</a></li>
-</ul>
-</div>
+  <div class="container">
+    <header>
+      <h1>Rithwick Reddy</h1>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-</div>  
-
-</header>
-<main>
-    <section id="home">
+    <main>
+      <section id="home" class="section home">
         <div class="row">
-          <div class="box">
-            <h1 class="title">MERN Stack Developer</h1>
-            <p class="summary">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
-              nisi officia salaar perspiciatis obcaecati vitae pariatur sunt iste ad
-              repellat voluptatibus.
+          <div class="box text-box">
+            <h2>MERN Stack Developer</h2>
+            <p>
+              I specialize in creating web applications using the MERN stack. I enjoy building clean, responsive, and user-friendly experiences.
             </p>
-            <p><button class="btn-signup">Know more...</button></p>
-            
+            <button class="btn">Know More</button>
           </div>
-          <div class="box">
-            <img src="image.jpeg" width="350px" class="image" alt="Authors Image" />
+          <div class="box image-box">
+            <img src="image.jpeg" alt="Author Image" class="profile-img" />
           </div>
         </div>
       </section>
-    </main>
-</main>
-<section class="projects-section">
-    <h2 class="section-title"><i>Projects</i></h2>
-    <div class="project-cards">
-        <div class="project-card">
+
+      <section id="projects" class="section projects">
+        <h2>Projects</h2>
+        <div class="cards">
+          <div class="card">
             <h3>Project 1</h3>
-            <p>Mern Stack </p>
-            <button class="demo-button">button</button>
-        </div>
-        <div class="project-card">
+            <p>MERN Stack App</p>
+            <button class="btn">Demo</button>
+          </div>
+          <div class="card">
             <h3>Project 2</h3>
-            <p>New1</p>
-            <button class="demo-button" onclick="location.href='project2.html'">Project 2</button>
+            <p>Authentication System</p>
+            <button class="btn" onclick="location.href='project2.html'">View</button>
+          </div>
+          <div class="card">
+            <h3>Project 3</h3>
+            <p>REST API</p>
+            <button class="btn" onclick="location.href='project3.html'">View</button>
+          </div>
         </div>
-        <div class="project-card">
-          <h3>Project 2</h3>
-          <p>New1</p>
-          <button class="demo-button" onclick="location.href='project3.html'">Project 3</button>
-      </div>
-    </div>
-</section>
-<section id="services">
-    <h2 class="section-heading">Services</h2>
-    <div class="info-box">
-      <h3>Full Stack Development</h3>
-      <p>I offer courses forfull stack web development services using the MERN stack.</p>
-    </div>
-    <div class="info-box">
-      <h3>Frontend Development</h3>
-      <p>Creating Intuitive user interfaces using React.js, HTML5, CSS3, and JavaScript.</p>
-    </div>
-    <div class="info-box">
-      <h3>Backend Development</h3>
-      <p>Developing scalable server-side logic and RESTful APIs using Node.js and Express.js.</p>
-    </div>
-  </section>
-  <section id="about">
-    <h2 class="section-heading">About Me</h2>
-    <div class="info-box">
-      <h3>Skills</h3>
-      <ul>
-        <li>JavaScript (ES6+)</li>
-        <li>js</li>
-        <li>MongoDB</li>
-        <li>HTML</li>
-        <li>Java</li>
-      </ul>
-    </div>
-  </section>
-  <section id="contact">
-    <h2 class="section-heading">Contact</h2>
-    <div class="info-box">
-      <p><strong>Name:</strong>check</p>
-      <p><strong>Phone:</strong> +91-99999999</p>
-      <p><strong>Email:</strong> check@gmail.com</p>
-    </div>
-  </section>
-  
-            
-          </section>
-        </main>
-  
-<footer>
+      </section>
 
-</footer>
+      <section id="services" class="section services">
+        <h2>Services</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>Full Stack Development</h3>
+            <p>End-to-end web apps using MongoDB, Express, React, and Node.js.</p>
+          </div>
+          <div class="card">
+            <h3>Frontend Development</h3>
+            <p>Modern and responsive UI with HTML, CSS, JS, and React.</p>
+          </div>
+          <div class="card">
+            <h3>Backend Development</h3>
+            <p>Robust backend APIs with Node.js and Express.</p>
+          </div>
+        </div>
+      </section>
 
+      <section id="about" class="section about">
+        <h2>About Me</h2>
+        <ul class="skills">
+          <li>JavaScript (ES6+)</li>
+          <li>React.js</li>
+          <li>MongoDB</li>
+          <li>Node.js</li>
+          <li>HTML & CSS</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="section contact">
+        <h2>Contact</h2>
+        <p><strong>Name:</strong> Rithwick Reddy</p>
+        <p><strong>Phone:</strong> +91-99999999</p>
+        <p><strong>Email:</strong> check@gmail.com</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Rithwick Reddy</p>
+    </footer>
+  </div>
+
+  <script>
+    // Animate elements on scroll (basic version)
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+        }
+      });
+    });
+
+    document.querySelectorAll('.card, .text-box, .skills, .profile-img').forEach(el => {
+      el.classList.add('hidden');
+      observer.observe(el);
+    });
+  </script>
 </body>
 </html>
