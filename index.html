@@ -1,130 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Rithwick Reddy - MERN Developer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rithwick Reddy - MERN Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-        body {
-            font-family: 'Roboto', sans-serif;
-            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-            color: #f0f0f0;
-            padding: 20px;
-        }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #f0f0f0;
+      padding: 0;
+      min-height: 100vh;
+    }
 
-        header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
 
-        h1 {
-            font-family: 'Orbitron', sans-serif;
-            font-size: 3rem;
-            color: #00ffe7;
-        }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
 
-        h2 {
-            font-weight: 300;
-            font-size: 1.5rem;
-            color: #ccc;
-        }
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 3rem;
+      color: #00ffe7;
+    }
 
-        .card {
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 16px;
-            padding: 20px;
-            margin-bottom: 30px;
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        }
+    h2 {
+      font-weight: 300;
+      font-size: 1.5rem;
+      color: #ccc;
+    }
 
-        h3 {
-            font-size: 1.4rem;
-            color: #00ffe7;
-            margin-bottom: 10px;
-        }
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 16px;
+      padding: 30px;
+      margin-bottom: 40px;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    }
 
-        ol {
-            list-style: none;
-            padding-left: 0;
-        }
+    h3 {
+      font-size: 1.4rem;
+      color: #00ffe7;
+      margin-bottom: 20px;
+    }
 
-        ol li {
-            margin: 10px 0;
-        }
+    ol {
+      list-style: none;
+      padding-left: 0;
+    }
 
-        a {
-            text-decoration: none;
-            color: #ffffff;
-            background-color: rgba(0, 255, 231, 0.1);
-            padding: 10px 15px;
-            border-radius: 8px;
-            transition: all 0.3s ease;
-        }
+    ol li {
+      margin: 12px 0;
+    }
 
-        a:hover {
-            background-color: rgba(0, 255, 231, 0.3);
-            color: #00ffe7;
-        }
+    a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: rgba(0, 255, 231, 0.1);
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  font-size: 1.05rem;
+}
 
-        hr {
-            border: 1px solid #00ffe7;
-            margin: 40px 0;
-        }
+a:hover {
+  background-color: rgba(0, 255, 231, 0.3);
+  color: #00ffe7;
+  transform: scale(1.1); /* this makes the link grow on hover */
+}
 
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 2rem;
-            }
-            h2 {
-                font-size: 1.2rem;
-            }
-        }
-    </style>
+
+    hr {
+      border: 1px solid #00ffe7;
+      margin: 40px 0;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+      }
+
+      .card {
+        padding: 20px;
+      }
+    }
+  </style>
 </head>
 <body>
+  <main>
     <header>
-        <h1>Rithwick Reddy</h1>
-        <h2>MERN Stack Developer</h2>
+      <h1>Rithwick Reddy</h1>
+      <h2>MERN Stack Developer</h2>
     </header>
 
     <section class="card">
-        <h3>🚀 My Projects</h3>
-        <ol>
-            <li><a href="port.html">My Portfolio</a></li>
-            <li><a href="https://github.com/Rithwick08/MongoQuery">MongoQuery</a></li>
-        </ol>
+      <h3>🚀 My Projects</h3>
+      <ol>
+        <li><a href="port.html">My Portfolio</a></li>
+        <li><a href="https://github.com/Rithwick08/MongoQuery">MongoQuery</a></li>
+      </ol>
     </section>
 
     <hr>
 
     <section class="card">
-        <h3>📝 My Assignments</h3>
-        <ol>
-            <li><a href="Assignment1.html">Assignment 1</a></li>
-            <li><a href="Assignment2.html">Assignment 2</a></li>
-            <li><a href="Assignment3.html">Assignment 3</a></li>
-            <li><a href="Assignment4.html">Assignment 4</a></li>
-            <li><a href="Assignment5.html">Assignment 5</a></li>
-            <li><a href="Assignment6.html">Assignment 6</a></li>
-            <li><a href="Assignment7.html">Assignment 7</a></li>
-            <li><a href="Assignment8.html">Assignment 8</a></li>
-            <li><a href="Assignment9.html">Assignment 9</a></li>
-            <li><a href="Assignment10.html">Assignment 10</a></li>
-            <li><a href="Assignment1.html">Assignment 11</a></li>
-            <li><a href="Assignment12.html">Assignment 12</a></li>
-            <li><a href="Assignment13.html">Assignment 13</a></li>
-            <li><a href="#">Assignment 14</a></li>
-            <li><a href="#">Assignment 15</a></li>
-        </ol>
+      <h3>📝 My Assignments</h3>
+      <ol>
+        <li><a href="Assignment1.html">Assignment 1</a></li>
+        <li><a href="Assignment2.html">Assignment 2</a></li>
+        <li><a href="Assignment3.html">Assignment 3</a></li>
+        <li><a href="Assignment4.html">Assignment 4</a></li>
+        <li><a href="Assignment5.html">Assignment 5</a></li>
+        <li><a href="Assignment6.html">Assignment 6</a></li>
+        <li><a href="Assignment7.html">Assignment 7</a></li>
+        <li><a href="Assignment8.html">Assignment 8</a></li>
+        <li><a href="Assignment9.html">Assignment 9</a></li>
+        <li><a href="Assignment10.html">Assignment 10</a></li>
+        <li><a href="Assignment1.html">Assignment 11</a></li>
+        <li><a href="Assignment12.html">Assignment 12</a></li>
+        <li><a href="Assignment13.html">Assignment 13</a></li>
+        <li><a href="#">Assignment 14</a></li>
+        <li><a href="#">Assignment 15</a></li>
+      </ol>
     </section>
+  </main>
 </body>
 </html>
